@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nidhita Kachore — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-mark">NK</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Let's Connect</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- mobile menu -->
+<div id="mobileMenu">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#skills" class="mobile-link">Skills</a>
+  <a href="#work" class="mobile-link">Work</a>
+  <a href="#journey" class="mobile-link">Journey</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-photo"></div>
+  <div class="bg-float f1">&lt;/&gt;</div>
+  <div class="bg-float f2">{ }</div>
+  <div class="hero-corner tr">DESIGNING<br>INTERFACES<br>WRITING CODE</div>
+
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow">Portfolio · Web Development</span>
+      <h1 class="hero-title">NIDHITA<br><em>KACHORE</em></h1>
+      <p class="hero-role">BCA Student &amp; Aspiring Web Developer</p>
+      <p class="hero-quote">"I'm building my foundation one project at a time — currently turning alterED from an idea into a working application."</p>
+      <p class="hero-loc">Based in Nagpur, Maharashtra</p>
+      <div class="hero-ctas">
+        <a href="#work" class="btn btn-solid">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-orbit-zone">
+      <div class="orbit-ring r1"></div>
+      <div class="orbit-ring r2"></div>
+
+      <div class="code-card">
+        <div class="cc-topbar">
+          <div class="cc-dots"><i></i><i></i><i></i></div>
+          <span class="cc-filename">developer.js</span>
+        </div>
+        <div class="cc-body">
+          <p><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {</p>
+          <p class="indent"><span class="tok-key">name</span>: <span class="tok-str">'Nidhita Kachore'</span>,</p>
+          <p class="indent"><span class="tok-key">role</span>: <span class="tok-str">'Web Developer'</span>,</p>
+          <p class="indent"><span class="tok-key">building</span>: <span class="tok-str">'alterED'</span>,</p>
+          <p class="indent"><span class="tok-key">status</span>: <span class="tok-str">'learning, always'</span><span class="cursor">|</span></p>
+          <p>};</p>
+        </div>
+      </div>
+
+      <div class="chip c1">HTML5</div>
+      <div class="chip c2">CSS3</div>
+      <div class="chip c3">SQL</div>
+      <div class="chip c4">C++</div>
+      <div class="chip c5">Git</div>
+      <div class="chip c6">Node.js</div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M8 3 3 12l5 9M16 3l5 9-5 9" /></svg> Currently Building alterED</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.6 3.6 3 8 3s8-1.4 8-3V5"/><path d="M4 12c0 1.6 3.6 3 8 3s8-1.4 8-3"/></svg> Learning Node.js &amp; Backend Dev</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg> BCA Student, SB Jain</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Based in Nagpur, India</span>
+    </span>
+    <span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M8 3 3 12l5 9M16 3l5 9-5 9" /></svg> Currently Building alterED</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.6 3.6 3 8 3s8-1.4 8-3V5"/><path d="M4 12c0 1.6 3.6 3 8 3s8-1.4 8-3"/></svg> Learning Node.js &amp; Backend Dev</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg> BCA Student, SB Jain</span>
+      <span class="m-item"><svg viewBox="0 0 24 24" class="m-icon"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Based in Nagpur, India</span>
+    </span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-terminal">
+          <div class="cc-topbar">
+            <div class="cc-dots"><i></i><i></i><i></i></div>
+            <span class="cc-filename">~/nidhita</span>
+          </div>
+          <div class="term-body">
+            <p><span class="tok-prompt">&gt;</span> whoami</p>
+            <p class="term-out">BCA student · Nagpur, Maharashtra</p>
+            <p><span class="tok-prompt">&gt;</span> currently_building</p>
+            <p class="term-out">alterED — Smart Lecture Management System</p>
+            <p><span class="tok-prompt">&gt;</span> currently_learning</p>
+            <p class="term-out">Node.js, SQL, responsive CSS</p>
+            <p><span class="tok-prompt">&gt;</span> status</p>
+            <p class="term-out">Growing, one project at a time<span class="cursor">|</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="eyebrow reveal in">About</span>
+        <p class="about-lede reveal">A BCA student building real, practical software — not just studying it.</p>
+        <p class="about-body reveal">I'm a BCA student with a growing foundation in programming and web development, currently strengthening my skills in SQL, CSS and Node.js. I care about building technology that actually solves a problem — which is why my main focus right now is <strong>alterED</strong>, a smart lecture management application I'm developing from the ground up.</p>
+
+        <div class="about-facts reveal">
+          <div class="about-fact"><b>2028</b><span>Expected BCA</span></div>
+          <div class="about-fact"><b>01</b><span>Active Project</span></div>
+          <div class="about-fact"><b>4+</b><span>Core Tools</span></div>
+        </div>
+
+        <div class="thread reveal">
+          <div class="thread-item"><b>Now —</b> Learning Node.js for backend development.</div>
+          <div class="thread-item"><b>Now —</b> Strengthening SQL and database concepts.</div>
+          <div class="thread-item"><b>Now —</b> Improving CSS and responsive web design.</div>
+          <div class="thread-item"><b>Always —</b> Building alterED, concept through active development.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section-dark">
+  <div class="skills-bg"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">What I Work With</span>
+      <h2>Tools &amp; Technologies</h2>
+      <p class="section-sub">From coursework fundamentals to the tools I'm picking up hands-on while building alterED.</p>
+    </div>
+
+    <div class="skills-grid reveal-stagger">
+      <div class="skill-cat">
+        <h3><svg class="cat-icon" viewBox="0 0 24 24"><path d="M8 3 3 12l5 9M16 3l5 9-5 9"/></svg> Programming</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M8 9l-2 3 2 3M16 9l2 3-2 3"/></svg>C</span><span class="skill-tag">Core Coursework</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="70"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M8 9l-2 3 2 3M16 9l2 3-2 3"/></svg>C++</span><span class="skill-tag">Core Coursework</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="70"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h3><svg class="cat-icon" viewBox="0 0 24 24"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3Z"/><path d="M7.5 7h9l-.4 4.5H8.3M8 12l.3 3.5 3.7 1 3.7-1 .3-3"/></svg> Web Development</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3Z"/></svg>HTML</span><span class="skill-tag">Comfortable</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="78"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><path d="M20 3H4l1.5 15.5L12 21l6.5-2.5L20 3Z"/></svg>CSS</span><span class="skill-tag">Comfortable, Growing</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="72"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h3><svg class="cat-icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.6 3.6 3 8 3s8-1.4 8-3V5"/><path d="M4 12c0 1.6 3.6 3 8 3s8-1.4 8-3"/></svg> Database</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.6 3.6 3 8 3s8-1.4 8-3V5"/><path d="M4 11v6c0 1.6 3.6 3 8 3s8-1.4 8-3v-6"/></svg>SQL</span><span class="skill-tag">Building Confidence</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="55"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h3><svg class="cat-icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5M8.2 7.2l7.6 3.6M8.2 16.8l7.6-3.6"/></svg> Tools &amp; Platforms</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5M8.2 7.2l7.6 3.6M8.2 16.8l7.6-3.6"/></svg>Git &amp; GitHub</span><span class="skill-tag">Comfortable</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="68"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>MS Word / Excel</span><span class="skill-tag">Proficient</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="85"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat learning" style="grid-column:1/-1;">
+        <h3><svg class="cat-icon" viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg> Currently Learning</h3>
+        <div class="learning-grid">
+          <div class="skill-row">
+            <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.6 3.6 3 8 3s8-1.4 8-3V5"/></svg>Node.js</span><span class="skill-tag">Actively Learning</span></div>
+            <div class="skill-track"><div class="skill-fill" data-fill="38"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-row-top"><span class="skill-name"><svg class="s-icon" viewBox="0 0 24 24"><path d="M8 3 3 12l5 9M16 3l5 9-5 9"/></svg>Express.js &amp; MySQL</span><span class="skill-tag">Learning Through alterED</span></div>
+            <div class="skill-track"><div class="skill-fill" data-fill="34"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="rule">
+    <div class="reveal">
+      <span class="eyebrow">Areas of Interest</span>
+      <div class="toolrow" style="justify-content:flex-start; margin-top:18px;">
+        <span>Web Development</span><span>Frontend Design</span><span>UI Systems</span><span>Applied Databases</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="image-break">
+  <div class="ib-photo"></div>
+  <div class="image-break-content reveal">
+    <p>"I'm learning backend development the same way I debug — one problem, one fix, one lesson at a time."</p>
+    <span>Nidhita Kachore · Currently building alterED</span>
+  </div>
+</div>
+
+<!-- WORK / PROJECT -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Featured Work</span>
+      <h2>What I'm Building</h2>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="browser-mock">
+        <div class="status-ribbon"><span class="dot"></span>In Development</div>
+        <div class="browser-bar">
+          <i></i><i></i><i></i>
+          <span class="browser-url">127.0.0.1:5500/frontend/index.html</span>
+        </div>
+        <div class="browser-body img-body">
+          <img src="images/altered-screenshot-cropped.png" alt="alterED smart lecture system homepage screenshot" loading="lazy">
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-logo"><img src="images/altered-logo.jpeg" alt="alterED logo"></div>
+        <span class="role">Smart Lecture Monitoring &amp; Alternate Live Arrangement App</span>
+        <h3>alterED</h3>
+        <p>A smart lecture management application designed to provide alternate arrangements the moment scheduled faculty are unavailable — so classes don't just get cancelled, they get rerouted.</p>
+        <ul class="project-list">
+          <li>Structured workflow for lecture monitoring, faculty availability and substitute allocation.</li>
+          <li>Alternate live lecture streaming, real-time notifications and dashboards.</li>
+          <li>Built and iterated on collaboratively with a small team.</li>
+        </ul>
+        <div class="tech-tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MySQL</span><span>Git</span><span>GitHub</span>
+        </div>
+        <a href="https://github.com/nidhitakachore-ops/alterED" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The Path So Far</span>
+      <h2>My Journey</h2>
+    </div>
+
+    <div class="tl reveal" id="tlContainer">
+      <div class="tl-line"></div>
+      <div class="tl-fill" id="tlFill"></div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-year">2023</span>
+        <h4>Carmel Academy</h4>
+        <p>Completed Class 10 — Secondary School.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-year">2025</span>
+        <h4>Bhide High School &amp; Jr. College</h4>
+        <p>Completed Class 12 — Higher Secondary.</p>
+      </div>
+      <div class="tl-item current">
+        <div class="tl-dot"></div>
+        <span class="tl-year">Expected 2028</span>
+        <h4>SB Jain — BCA</h4>
+        <p>Bachelor of Computer Applications, currently pursuing.</p>
+        <span class="tl-badge">You Are Here</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STRENGTHS -->
+<section class="section-dark" style="padding-top:100px; padding-bottom:100px;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">How I Work</span>
+      <h2>Strengths</h2>
+    </div>
+
+    <div class="strengths-grid reveal-stagger">
+      <div class="strength-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <h4>Problem Solving</h4>
+        <p>Breaking a messy problem into pieces I can actually build, one step at a time.</p>
+      </div>
+      <div class="strength-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <h4>Team Collaboration</h4>
+        <p>Currently building alterED with a team — designing and integrating components together.</p>
+      </div>
+      <div class="strength-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+        <h4>Continuous Learning</h4>
+        <p>Actively picking up Node.js, SQL and responsive design through hands-on project work.</p>
+      </div>
+      <div class="strength-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
+        <h4>Adaptability</h4>
+        <p>Comfortable moving between coursework, new tools and a live project without losing pace.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-photo"></div>
+  <div class="contact-dot" style="top:12%; left:8%;"></div>
+  <div class="contact-dot" style="top:70%; left:15%; animation-delay:1s;"></div>
+  <div class="contact-dot" style="top:30%; right:10%; animation-delay:2s;"></div>
+  <div class="contact-dot" style="top:80%; right:20%; animation-delay:.5s;"></div>
+
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-head reveal">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Let's Build<br>Something.</h2>
+        <p>Open to internships, collaboration, and any conversation about web development. I reply quickly — reach me however's easiest for you.</p>
+        <p class="contact-quote">"Every project I take on is a chance to learn something I didn't know yesterday."</p>
+      </div>
+
+      <div class="contact-cards reveal">
+        <div class="contact-card" data-copy="nidhitakachore@gmail.com" data-label="Email">
+          <div class="cc-left">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            <div><div class="cc-label">Email</div><div class="cc-value">nidhitakachore@gmail.com</div></div>
+          </div>
+          <span class="cc-arrow">Copy →</span>
+        </div>
+
+        <div class="contact-card" data-copy="9359730625" data-label="Phone number">
+          <div class="cc-left">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><div class="cc-label">Phone</div><div class="cc-value">+91 93597 30625</div></div>
+          </div>
+          <span class="cc-arrow">Copy →</span>
+        </div>
+
+        <a class="contact-card" href="https://www.linkedin.com/in/nidhita-kachore-4872ba387" target="_blank" rel="noopener">
+          <div class="cc-left">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <div><div class="cc-label">LinkedIn</div><div class="cc-value">nidhita-kachore</div></div>
+          </div>
+          <span class="cc-arrow">Visit →</span>
+        </a>
+
+        <a class="contact-card" href="https://github.com/nidhitakachore-ops" target="_blank" rel="noopener">
+          <div class="cc-left">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <div><div class="cc-label">GitHub</div><div class="cc-value">nidhitakachore-ops</div></div>
+          </div>
+          <span class="cc-arrow">Visit →</span>
+        </a>
+
+        <div class="contact-card" style="cursor:default;">
+          <div class="cc-left">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><div class="cc-label">Location</div><div class="cc-value">Nagpur, Maharashtra</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <span class="eyebrow">Learn · Build · Iterate</span>
+    <div class="foot-links">
+      <a href="mailto:nidhitakachore@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/nidhita-kachore-4872ba387" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/nidhitakachore-ops" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <a href="#hero" class="to-top" aria-label="Back to top">↑</a>
+  </div>
+</footer>
+
+<div class="copy-toast" id="toast">Copied to clipboard</div>
+
+<script src="script.js"></script>
+</body>
+</html>
